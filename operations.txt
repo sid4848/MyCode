@@ -1,9 +1,0 @@
-cat : display conatins of the file
-
-head : display first n lines of input 
-
-tail : display last n lines of input
-
-more : display in paginated manner the input
-
-less : display in paginated++ manner
