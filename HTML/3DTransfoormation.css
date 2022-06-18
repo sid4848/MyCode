@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.box {
+    width:100px;
+    height: 100px;
+    background: gold;
+}
+
+
+.container {
+    perspective: 200px;
+}
+.container:hover  {
+    transform: rotateY(45deg) ; /* here order of functions matters*/
+    transform-origin: 0 50%;
+}
