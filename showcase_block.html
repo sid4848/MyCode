@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/ste_project.css" />
+  </head>
+  <body>
+    <section class="block block__dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2>User freindly control panel</h2>
+      </header>
+      <div class="grid grid--1x2">
+        <picture class="block-showcase__image">
+          <source
+            type="image/webp"
+            srcset="Moshify/resize/ipad@2xwebp 2x, Moshify/resize/ipad.webp 1x"
+          />
+          <source
+            type="image/png"
+            srcset="Moshify/resize/ipad@2xpng 2x, Moshify/resize/ipad.png 1x"
+          />
+          <img src="Moshify/resize/ipad.png" alt="" />
+        </picture>
+        <ul class="list showcase__ul">
+          <li class="showcase__list">
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="css/sprite.svg#clock"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Easy Start & Manage Updates</h3>
+                <p class="showcase__content">
+                  Our cloud plans include easy onboarding for new and existing
+                  sites and managed WordPress and WooCommerce auto-updates.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="showcase__list">
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="css/sprite.svg#growth"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Staging Git & WP-CLI</h3>
+                <p class="showcase__content">
+                  We make your WordPress and WooCommerce development flow easier
+                  with a convenient staging tool and Git and WP-CLI integration.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="showcase__list">
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="css/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Dynamic Caching & More</h3>
+                <p class="showcase__content">
+                  Speed up your WordPress and Woo sites with our SG Optimizer
+                  plugin through smart dynamic caching and multiple other
+                  performance optimizations.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
